@@ -1,3 +1,9 @@
-import * as tfsearch from './model/model';
+import { IEntitySearch, IEnumerationRelated, IRelatedIds, IProperty, Sort } from "./model/model";
 
-export { tfsearch };
+export {
+    IEntitySearch,
+    IEnumerationRelated,
+    IRelatedIds,
+    IProperty,
+    Sort
+}
