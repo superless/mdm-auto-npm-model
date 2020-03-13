@@ -1,4 +1,4 @@
-import { IEntitySearch, IEnumerationRelated, IRelatedIds, IProperty, Sort } from "./model/model";
+import { IEntitySearch, IEnumerationRelated, IRelatedIds, IProperty, Sort, IResult } from "./model/model";
 
 export {
     IEntitySearch,
