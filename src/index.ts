@@ -5,5 +5,6 @@ export {
     IEnumerationRelated,
     IRelatedIds,
     IProperty,
+    IResult,
     Sort
 }
