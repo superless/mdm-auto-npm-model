@@ -9,6 +9,9 @@ export interface SearchType {
   dataDependant?: boolean;
   propertyIndex?: number;
   propertyCategoryIndex?: number;
+  messageNotFound?:string;
+  placeHolder:string;
+  
 }
 
 export type TypeEntity = "search" | "selected" | "selectedGroup";
