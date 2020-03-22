@@ -10,3 +10,6 @@ export interface IEntitySearch {
   RelatedProperties : IProperty[];
   RelatedEnumValues : IEnumerationRelated[];
 }
+
+
+
