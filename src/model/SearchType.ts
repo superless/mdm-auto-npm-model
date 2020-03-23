@@ -9,6 +9,7 @@ export interface SearchType {
   dataDependant?: boolean;
   propertyIndex?: number;
   propertyCategoryIndex?: number;
+  categoryIndex?:number;
   messageNotFound?:string;
   placeHolder:string;
   
