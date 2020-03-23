@@ -28,7 +28,8 @@
     "dev": "concurrently --kill-others \"npm run build-watch\" \"npm run start-example\"",
     "pretest": "npm run build",
     "test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx",
-    "test:lint:fix": "npm run test:lint -- --fix"
+    "test:lint:fix": "npm run test:lint -- --fix",
+    "vsToken": "vsts-npm-auth -config .npmrc"
   },
   "files": [
     "dist"
