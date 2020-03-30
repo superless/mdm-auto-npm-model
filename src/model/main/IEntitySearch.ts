@@ -17,7 +17,7 @@ export interface IEntitySearch {
     id: string;
     entityIndex: number;
     created: Date;
-    rel: IReletadIdTs;
+    rel: IReletadIdTs[];
     sug: ISuggestProperty[];
     str: IStrProperty[];
     enum: IEnumProperty[];
@@ -25,5 +25,5 @@ export interface IEntitySearch {
     num64: INum64Property[];
     dbl: IDblProperty[];
     dt: IDtProperty[];
-    geo: IGeographyProperty;
+    geo: IGeographyProperty[];
 }
