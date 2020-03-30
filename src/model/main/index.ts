@@ -14,5 +14,6 @@ export * from './IGeoPointTs';
 export * from './INum32Property';
 export * from './INum64Property';
 export * from './IRelatedId';
+export * from './IReletadIdTs';
 export * from './IStrProperty';
 export * from './ISuggestProperty';
