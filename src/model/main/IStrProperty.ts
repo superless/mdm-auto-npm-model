@@ -6,5 +6,6 @@
 import { IBaseProperty } from "./IBaseProperty";
 
 export interface IStrProperty extends IBaseProperty<string> {
+    value: string;
     id: string;
 }
