@@ -1,6 +1,6 @@
 {
   "name": "tf-search-model",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "modelo base para componentes generales de trifenix",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
