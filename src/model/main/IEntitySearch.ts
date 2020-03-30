@@ -10,6 +10,7 @@ import { INum32Property } from "./INum32Property";
 import { INum64Property } from "./INum64Property";
 import { IDblProperty } from "./IDblProperty";
 import { IDtProperty } from "./IDtProperty";
+import { IBoolProperty } from "./IBoolProperty";
 import { IReletadIdTs } from "./IReletadIdTs";
 import { IGeographyProperty } from "./IGeographyProperty";
 
@@ -26,4 +27,5 @@ export interface IEntitySearch {
     dbl: IDblProperty[];
     dt: IDtProperty[];
     geo: IGeographyProperty[];
+    bl: IBoolProperty[];
 }
