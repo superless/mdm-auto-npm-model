@@ -3,5 +3,7 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './data';
-export * from './model';
+export enum PreOrderType {
+    DEFAULT = 0,
+    PHENOLOGICAL = 1,
+}
