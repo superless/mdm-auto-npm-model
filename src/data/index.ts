@@ -4,4 +4,7 @@
  */
 
 export * from './data';
-export * from './model';
+export * from './IDefaultDictionary';
+export * from './IEnumDictionary';
+export * from './IModelByIndex';
+export * from './IModelDictionary';
