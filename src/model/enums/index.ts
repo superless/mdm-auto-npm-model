@@ -15,4 +15,5 @@ export * from './NumRelated';
 export * from './OrderType';
 export * from './PreOrderType';
 export * from './PropertyRelated';
+export * from './Related';
 export * from './StringRelated';
