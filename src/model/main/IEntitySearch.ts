@@ -25,7 +25,7 @@ export interface IEntitySearch {
     num32: INum32Property[];
     num64: INum64Property[];
     dbl: IDblProperty[];
-    st: IDtProperty[];
+    dt: IDtProperty[];
     geo: IGeographyProperty[];
     bl: IBoolProperty[];
 }
