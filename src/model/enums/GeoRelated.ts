@@ -4,5 +4,6 @@
  */
 
 export enum GeoRelated {
-    GENERIC_LOCATION = 0,
+    LOCATION_EVENT = 0,
+    LOCATION_BARRACK = 1,
 }

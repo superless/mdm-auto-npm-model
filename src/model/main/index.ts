@@ -3,6 +3,7 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
+export * from './IBaseFacetableProperty';
 export * from './IBaseProperty';
 export * from './IBoolProperty';
 export * from './IDblProperty';

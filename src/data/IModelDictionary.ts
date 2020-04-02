@@ -3,11 +3,15 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
+import { EntityRelated } from "../model/enums/EntityRelated";
 import { IDefaultDictionary } from "./IDefaultDictionary";
 import { IEnumDictionary } from "./IEnumDictionary";
 
 export interface IModelDictionary {
-    relatedData: { [key: number]: IDefaultDictionary; };
+    title: string;
+    shortName: string;
+    description: string;
+    index: EntityRelated;
     stringData: { [key: number]: IDefaultDictionary; };
     numData: { [key: number]: IDefaultDictionary; };
     doubleData: { [key: number]: IDefaultDictionary; };
