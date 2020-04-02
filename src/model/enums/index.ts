@@ -6,6 +6,7 @@
 export * from './BoolRelated';
 export * from './CurrentSeason';
 export * from './DateRelated';
+export * from './Device';
 export * from './DoubleRelated';
 export * from './EntityRelated';
 export * from './EnumerationRelated';

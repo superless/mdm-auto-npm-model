@@ -3,9 +3,8 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-import { IBaseProperty } from "./IBaseProperty";
+import { IBaseFacetableProperty } from "./IBaseFacetableProperty";
 
-export interface IStrProperty extends IBaseProperty<string> {
+export interface IStrProperty extends IBaseFacetableProperty<string> {
     value: string;
-    id: string;
 }

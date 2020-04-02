@@ -3,8 +3,12 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
+import { IEntitySearchDisplayInfo } from "./IEntitySearchDisplayInfo";
+
 export interface IDefaultDictionary {
     nameProp: string;
-    description: string;
     isArray: boolean;
+    info: IEntitySearchDisplayInfo;
+    required: boolean;
+    unique: boolean;
 }

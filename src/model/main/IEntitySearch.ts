@@ -16,7 +16,7 @@ import { IGeographyProperty } from "./IGeographyProperty";
 
 export interface IEntitySearch {
     id: string;
-    entityIndex: number;
+    entityIndex: number[];
     created: Date;
     rel: IReletadIdTs[];
     sug: ISuggestProperty[];
@@ -25,7 +25,7 @@ export interface IEntitySearch {
     num32: INum32Property[];
     num64: INum64Property[];
     dbl: IDblProperty[];
-    dt: IDtProperty[];
+    st: IDtProperty[];
     geo: IGeographyProperty[];
     bl: IBoolProperty[];
 }
