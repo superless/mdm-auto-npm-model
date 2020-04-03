@@ -6,5 +6,5 @@
 import { IBaseProperty } from "./IBaseProperty";
 
 export interface ISuggestProperty extends IBaseProperty<string> {
-    value: string;
+    Value: string;
 }

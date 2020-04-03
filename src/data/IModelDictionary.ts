@@ -8,15 +8,15 @@ import { IDefaultDictionary } from "./IDefaultDictionary";
 import { IEnumDictionary } from "./IEnumDictionary";
 
 export interface IModelDictionary {
-    title: string;
-    shortName: string;
-    description: string;
-    index: EntityRelated;
-    stringData: { [key: number]: IDefaultDictionary; };
-    numData: { [key: number]: IDefaultDictionary; };
-    doubleData: { [key: number]: IDefaultDictionary; };
-    boolData: { [key: number]: IDefaultDictionary; };
-    geoData: { [key: number]: IDefaultDictionary; };
-    dateData: { [key: number]: IDefaultDictionary; };
-    enumData: { [key: number]: IEnumDictionary; };
+    Title: string;
+    ShortName: string;
+    Description: string;
+    Index: EntityRelated;
+    StringData: { [key: number]: IDefaultDictionary; };
+    NumData: { [key: number]: IDefaultDictionary; };
+    DoubleData: { [key: number]: IDefaultDictionary; };
+    BoolData: { [key: number]: IDefaultDictionary; };
+    GeoData: { [key: number]: IDefaultDictionary; };
+    DateData: { [key: number]: IDefaultDictionary; };
+    EnumData: { [key: number]: IEnumDictionary; };
 }
