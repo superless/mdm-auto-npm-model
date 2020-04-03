@@ -6,5 +6,5 @@
 import { IRelatedId } from "./IRelatedId";
 
 export interface IReletadIdTs extends IRelatedId {
-    Name: string;
+    name: string;
 }

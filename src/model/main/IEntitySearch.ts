@@ -15,9 +15,9 @@ import { IReletadIdTs } from "./IReletadIdTs";
 import { IGeographyProperty } from "./IGeographyProperty";
 
 export interface IEntitySearch {
-    Id: string;
-    EntityIndex: number[];
-    Created: Date;
+    id: string;
+    entityIndex: number[];
+    created: Date;
     rel: IReletadIdTs[];
     sug: ISuggestProperty[];
     str: IStrProperty[];

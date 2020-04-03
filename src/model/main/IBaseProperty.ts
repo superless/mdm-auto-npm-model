@@ -4,6 +4,6 @@
  */
 
 export interface IBaseProperty<T> {
-    PropertyIndex: number;
-    Value: T;
+    propertyIndex: number;
+    value: T;
 }

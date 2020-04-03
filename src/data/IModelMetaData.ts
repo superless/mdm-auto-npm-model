@@ -6,5 +6,5 @@
 import { IModelDictionary } from "./IModelDictionary";
 
 export interface IModelMetaData {
-    Indexes: IModelDictionary[];
+    indexes: IModelDictionary[];
 }
