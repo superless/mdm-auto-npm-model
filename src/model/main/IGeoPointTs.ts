@@ -4,6 +4,6 @@
  */
 
 export interface IGeoPointTs {
-    Latitude: number;
-    Longitude: number;
+    latitude: number;
+    longitude: number;
 }

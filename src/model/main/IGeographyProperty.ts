@@ -6,6 +6,6 @@
 import { IGeoPointTs } from "./IGeoPointTs";
 
 export interface IGeographyProperty {
-    PropertyIndex: number;
-    Value: IGeoPointTs;
+    propertyIndex: number;
+    value: IGeoPointTs;
 }

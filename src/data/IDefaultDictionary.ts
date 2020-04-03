@@ -6,9 +6,9 @@
 import { IEntitySearchDisplayInfo } from "./IEntitySearchDisplayInfo";
 
 export interface IDefaultDictionary {
-    NameProp: string;
+    nameProp: string;
     isArray: boolean;
-    Info: IEntitySearchDisplayInfo;
-    Required: boolean;
-    Unique: boolean;
+    info: IEntitySearchDisplayInfo;
+    required: boolean;
+    unique: boolean;
 }

@@ -4,8 +4,8 @@
  */
 
 export interface IEntitySearchDisplayInfo {
-    Title: string;
-    ShortName: string;
-    Description: string;
-    Column: string;
+    title: string;
+    shortName: string;
+    description: string;
+    column: string;
 }

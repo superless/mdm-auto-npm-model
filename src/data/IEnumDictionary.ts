@@ -6,5 +6,5 @@
 import { IDefaultDictionary } from "./IDefaultDictionary";
 
 export interface IEnumDictionary extends IDefaultDictionary {
-    EnumData: { [key: number]: string; };
+    enumData: { [key: number]: string; };
 }

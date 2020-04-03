@@ -6,16 +6,16 @@
 import { TypeEntity } from "./enum/TypeEntity";
 
 export interface ISearchType {
-    EntityType: TypeEntity;
-    Name: string;
-    MaxOptions: number;
-    Default: boolean;
-    MainEntityIndex?: number;
-    EntitySearchTypeIndex?: number;
-    DataDependant?: boolean;
-    PropertyIndex?: number;
-    PropertyCategoryIndex?: number;
-    CategoryIndex?: number;
-    MessageNotFound?: string;
-    PlaceHolder?: string;
+    entityType: TypeEntity;
+    name: string;
+    maxOptions: number;
+    default: boolean;
+    mainEntityIndex?: number;
+    entitySearchTypeIndex?: number;
+    dataDependant?: boolean;
+    propertyIndex?: number;
+    propertyCategoryIndex?: number;
+    categoryIndex?: number;
+    messageNotFound?: string;
+    placeHolder?: string;
 }

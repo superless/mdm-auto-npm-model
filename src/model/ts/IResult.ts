@@ -6,7 +6,7 @@
 import { IEntitySearch } from "./../main/IEntitySearch";
 
 export interface IResult {
-    Total: number;
-    Entities: IEntitySearch[];
-    Current: number;
+    total: number;
+    entities: IEntitySearch[];
+    current: number;
 }
