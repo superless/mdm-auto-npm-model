@@ -4,7 +4,7 @@
  */
 
 export interface IRelatedId {
-    entityIndex: number;
-    entityId: string;
-    id: string;
+    EntityIndex: number;
+    EntityId: string;
+    Id: string;
 }

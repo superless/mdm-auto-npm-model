@@ -6,5 +6,5 @@
 import { IBaseFacetableProperty } from "./IBaseFacetableProperty";
 
 export interface IStrProperty extends IBaseFacetableProperty<string> {
-    value: string;
+    Value: string;
 }
