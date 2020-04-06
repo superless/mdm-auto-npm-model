@@ -21,13 +21,12 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: '12.x'
-      checkLatest: true
     displayName: "Install Node.js"
 
   - task: Npm@1
     inputs:
       command: 'custom'
-      customCommand: '--no-git-tag-version version $(GitVersion.MajorMinorPatch)'
+      customCommand: '--no-git-tag-version version $(GitVersion.MajorMinorPatch)$(GitVersion.PreReleaseTagWithDash)'
 
   - task: CmdLine@2
     inputs:
