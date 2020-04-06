@@ -3,5 +3,8 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './data';
-export * from './model';
+export enum BoolRelated {
+    CURRENT = 0,
+    GENERIC_DEFAULT = 1,
+    GENERIC_ACTIVE = 2,
+}
