@@ -26,7 +26,10 @@ steps:
       command: 'custom'
       customCommand: '--no-git-tag-version version $(GitVersion.MajorMinorPatch)'
 
-  
+  - task: CmdLine@2
+    inputs:
+      script: 'cat package.json'
+
   - task: CopyFiles@2
     inputs:
       sourceFolder: "$(Build.SourcesDirectory)"
