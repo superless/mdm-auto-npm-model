@@ -15,7 +15,7 @@ steps:
     inputs:
       versionSpec: '5.x'
       includePrerelease: true
-      useConfigFile: true
+      useConfigFile: false
       configFilePath: 'deploy/gitConfig.yml'
       
   - task: NodeTool@0
