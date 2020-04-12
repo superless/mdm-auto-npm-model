@@ -19,4 +19,5 @@ export interface IModelDictionary {
     geoData: { [key: number]: IDefaultDictionary; };
     dateData: { [key: number]: IDefaultDictionary; };
     enumData: { [key: number]: IEnumDictionary; };
+    relData: { [key: number]: IDefaultDictionary; };
 }
