@@ -5,7 +5,3 @@ dist
 .vsCode
 package-lock.json
 deploy/gitConfig.yml
-<<<<<<< HEAD
-=======
-
->>>>>>> master
