@@ -12,8 +12,8 @@ export interface IResult {
     total: number;
     entities: IEntitySearch[];
     current: number;
-    facets: IFacet[];
-    filter: IFilterModel;
+    facets?: IFacet[];
+    filter?: IFilterModel;
     entityKindSort?: Related;
     byDesc?: boolean;
     indexSorted?: number;
