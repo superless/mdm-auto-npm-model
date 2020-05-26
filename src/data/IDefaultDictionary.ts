@@ -11,4 +11,7 @@ export interface IDefaultDictionary {
     info: IEntitySearchDisplayInfo;
     required: boolean;
     unique: boolean;
+    visible: boolean;
+    autoNumeric: boolean;
+    hasInput: boolean;
 }

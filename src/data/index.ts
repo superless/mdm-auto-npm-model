@@ -7,6 +7,5 @@ export * from './data';
 export * from './IDefaultDictionary';
 export * from './IEntitySearchDisplayInfo';
 export * from './IEnumDictionary';
-export * from './IModelByIndex';
 export * from './IModelDictionary';
 export * from './IModelMetaData';
