@@ -7,4 +7,5 @@ export interface IFacet {
     index: number;
     id: string;
     title: string;
+    count: number;
 }
