@@ -6,7 +6,6 @@
 import { FilterType } from "../enums/FilterType";
 
 export interface IFilterBase<T> {
-    index: number;
     filterType: FilterType;
     value: T;
 }
