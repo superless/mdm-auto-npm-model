@@ -17,4 +17,5 @@ export interface IResult {
     entityKindSort?: Related;
     byDesc?: boolean;
     indexSorted?: number;
+    indexPropName: number;
 }
