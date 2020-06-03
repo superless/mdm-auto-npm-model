@@ -3,8 +3,9 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export enum TypeEntity {
-    SEARCH = 0,
-    SELECTED = 1,
-    SELECTED_GROUP = 2,
+export interface IFacet {
+    index: number;
+    title: string;
+    value: string;
+    count: number;
 }
