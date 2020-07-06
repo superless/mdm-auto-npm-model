@@ -6,6 +6,6 @@
 import { FilterType } from '../enums/filter-type';
 
 export interface FilterBase<T> {
-  filterType: FilterType;
-  value: T;
+    filterType: FilterType;
+    value: T;
 }

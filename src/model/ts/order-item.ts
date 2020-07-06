@@ -6,7 +6,7 @@
 import { KindProperty } from './kind-property';
 
 export interface OrderItem {
-  desc: boolean;
-  kindProperty: KindProperty;
-  propertyIndex: number;
+    desc: boolean;
+    kindProperty: KindProperty;
+    propertyIndex: number;
 }
