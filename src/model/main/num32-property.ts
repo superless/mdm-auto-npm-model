@@ -3,5 +3,8 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './device';
-export * from './filter-type';
+import { BaseProperty } from './base-property';
+
+export interface Num32Property extends BaseProperty<number> {
+
+}

@@ -3,18 +3,18 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './IBaseFacetableProperty';
-export * from './IBaseProperty';
-export * from './IBoolProperty';
-export * from './IDblProperty';
-export * from './IDtProperty';
-export * from './IEntitySearch';
-export * from './IEnumProperty';
-export * from './IGeographyProperty';
-export * from './IGeoPointTs';
-export * from './INum32Property';
-export * from './INum64Property';
-export * from './IRelatedId';
-export * from './IReletadIdTs';
-export * from './IStrProperty';
-export * from './ISuggestProperty';
+export * from './base-facetable-property';
+export * from './base-property';
+export * from './bool-property';
+export * from './dbl-property';
+export * from './dt-property';
+export * from './entity-search';
+export * from './enum-property';
+export * from './geo-point-ts';
+export * from './geography-property';
+export * from './num32-property';
+export * from './num64-property';
+export * from './related-id';
+export * from './reletad-id-ts';
+export * from './str-property';
+export * from './suggest-property';

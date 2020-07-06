@@ -3,7 +3,9 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export enum Device {
-    WEB = 0,
-    MOBILE = 1,
+export interface EntitySearchDisplayInfo {
+    title: string;
+    shortName: string;
+    description: string;
+    column: string;
 }

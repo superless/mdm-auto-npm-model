@@ -3,7 +3,9 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './IFacet';
-export * from './IFilterBase';
-export * from './IFilterModel';
-export * from './IResult';
+export * from './collection-result';
+export * from './facet';
+export * from './filter-base';
+export * from './filter-model';
+export * from './kind-property';
+export * from './order-item';

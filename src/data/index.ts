@@ -3,9 +3,9 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './data';
-export * from './IDefaultDictionary';
-export * from './IEntitySearchDisplayInfo';
-export * from './IEnumDictionary';
-export * from './IModelDictionary';
-export * from './IModelMetaData';
+export * from './entity-kind';
+export * from './entity-metadata';
+export * from './entity-search-display-info';
+export * from './model-meta-data';
+export * from './property-metadadata-enum';
+export * from './property-metadata';

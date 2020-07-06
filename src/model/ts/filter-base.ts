@@ -3,7 +3,9 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export enum Device {
-    WEB = 0,
-    MOBILE = 1,
+import { FilterType } from '../enums/filter-type';
+
+export interface FilterBase<T> {
+    filterType: FilterType;
+    value: T;
 }
