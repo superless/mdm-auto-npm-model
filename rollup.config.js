@@ -13,12 +13,6 @@ export default [
     output: [
       { file: pkg.main, format: 'cjs' },
       { file: pkg.module, format: 'esm' },
-       // descomentar para generar archivo.
-      // {
-      //   file: './../../old_test/empty-react/src/model/index.js',
-      //   format: 'es',
-      //   banner: '/* eslint-disable */',
-      // },
     ],
   },
 ];

@@ -15,17 +15,17 @@ import { ReletadIdTs } from './reletad-id-ts';
 import { GeographyProperty } from './geography-property';
 
 export interface EntitySearch {
-    id: string;
-    entityIndex: number[];
-    created: Date;
-    rel: ReletadIdTs[];
-    sug: SuggestProperty[];
-    str: StrProperty[];
-    enum: EnumProperty[];
-    num32: Num32Property[];
-    num64: Num64Property[];
-    dbl: DblProperty[];
-    dt: DtProperty[];
-    geo: GeographyProperty[];
-    bl: BoolProperty[];
+  id: string;
+  entityIndex: number[];
+  created: Date;
+  rel: ReletadIdTs[];
+  sug: SuggestProperty[];
+  str: StrProperty[];
+  enum: EnumProperty[];
+  num32: Num32Property[];
+  num64: Num64Property[];
+  dbl: DblProperty[];
+  dt: DtProperty[];
+  geo: GeographyProperty[];
+  bl: BoolProperty[];
 }
