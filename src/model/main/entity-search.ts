@@ -3,29 +3,29 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-import { SuggestProperty } from './suggest-property';
-import { StrProperty } from './str-property';
-import { EnumProperty } from './enum-property';
-import { Num32Property } from './num32-property';
-import { Num64Property } from './num64-property';
-import { DblProperty } from './dbl-property';
-import { DtProperty } from './dt-property';
-import { BoolProperty } from './bool-property';
-import { ReletadIdTs } from './reletad-id-ts';
-import { GeographyProperty } from './geography-property';
+import { IBoolProperty } from './i-bool-property';
+import { IDblProperty } from './i-dbl-property';
+import { IDtProperty } from './i-dt-property';
+import { IEnumProperty } from './i-enum-property';
+import { INum32Property } from './i-num32-property';
+import { INum64Property } from './i-num64-property';
+import { IRelatedId } from './i-related-id';
+import { IStrProperty } from './i-str-property';
+import { IProperty } from './i-property';
+import { GeoPointTs } from './geo-point-ts';
 
 export interface EntitySearch {
     id: string;
-    entityIndex: number[];
     created: Date;
-    rel: ReletadIdTs[];
-    sug: SuggestProperty[];
-    str: StrProperty[];
-    enum: EnumProperty[];
-    num32: Num32Property[];
-    num64: Num64Property[];
-    dbl: DblProperty[];
-    dt: DtProperty[];
-    geo: GeographyProperty[];
-    bl: BoolProperty[];
+    index: number;
+    bl: IBoolProperty[];
+    dbl: IDblProperty[];
+    dt: IDtProperty[];
+    enm: IEnumProperty[];
+    num32: INum32Property[];
+    num64: INum64Property[];
+    rel: IRelatedId[];
+    str: IStrProperty[];
+    sug: IStrProperty[];
+    geo: IProperty<GeoPointTs>[];
 }

@@ -6,6 +6,6 @@
 import { GeoPointTs } from './geo-point-ts';
 
 export interface GeographyProperty {
-    propertyIndex: number;
+    index: number;
     value: GeoPointTs;
 }

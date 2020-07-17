@@ -6,4 +6,5 @@
 export enum PhisicalDevice {
     WEB = 0,
     MOBILE = 1,
+    ALL = 2,
 }
