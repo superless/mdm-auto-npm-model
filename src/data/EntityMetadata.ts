@@ -3,6 +3,7 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
+import { GroupMenu } from '../model/containers/GroupMenu';
 import { EntityKind } from './EntityKind';
 import { PropertyMetadata } from './PropertyMetadata';
 import { PropertyMetadadataEnum } from './PropertyMetadadataEnum';
@@ -13,6 +14,7 @@ export interface EntityMetadata {
     description: string;
     index: number;
     visible: boolean;
+    menus: GroupMenu[];
     entityKind: EntityKind;
     pathName: string;
     autoNumeric: boolean;

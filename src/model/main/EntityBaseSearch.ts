@@ -11,9 +11,10 @@ import { INum32Property } from './INum32Property';
 import { INum64Property } from './INum64Property';
 import { IRelatedId } from './IRelatedId';
 import { IStrProperty } from './IStrProperty';
-import { IProperty } from '../main/IProperty';
+import { IProperty } from './IProperty';
+import { GeoPointTs } from './GeoPointTs';
 
-export interface IEntitySearch<T> {
+export interface EntityBaseSearch<GeoPointTs> {
     id: string;
     created: Date;
     index: number;
@@ -26,7 +27,7 @@ export interface IEntitySearch<T> {
     rel: IRelatedId[];
     str: IStrProperty[];
     sug: IStrProperty[];
-    geo: IProperty<T>[];
     hm: string;
     hh: string;
+    geo: IProperty<GeoPointTs>[];
 }
