@@ -3,7 +3,7 @@
  * Any changes made to this file can be lost when this file is regenerated.
  */
 
-export * from './containers';
-export * from './enums';
-export * from './filters';
-export * from './main';
+export interface StrProperty {
+    index: number;
+    value: string;
+}
