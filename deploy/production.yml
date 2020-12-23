@@ -26,8 +26,11 @@ steps:
       configFilePath: "deploy/gitConfig.yml" 
     displayName: "generando version actual"
 
-  - script : |  
+  - script : |
+      git config --global user.email alejandro.iglesias@trifenix.io
+      git config --global user.name alejandro.iglesias
       git tag -a $(SemVer) -m "update version $(SemVer)"
+      git push origin --tag
     displayName : "actualización de versión manual"
   
   - task: gitversion/execute@0
