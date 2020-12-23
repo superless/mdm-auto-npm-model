@@ -24,7 +24,18 @@ steps:
     inputs:
       useConfigFile: true
       configFilePath: "deploy/gitConfig.yml" 
-    displayName: "generando la nueva versión"    
+    displayName: "generando version actual"
+
+  - script : |  
+      git tag -a $(SemVer) -m "update version $(SemVer)"
+    displayName : "actualización de versión manual"
+  
+  - task: gitversion/execute@0
+    inputs:
+      useConfigFile: true
+      configFilePath: "deploy/gitConfig.yml" 
+    displayName: "generando la nueva versión"
+  
 
   - task: NodeTool@0
     inputs:
