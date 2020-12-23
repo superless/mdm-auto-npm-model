@@ -16,7 +16,7 @@ pr: none
 steps:
   - task: gitversion/setup@0
     inputs:
-      versionSpec: '5.1'
+      versionSpec: '5.x'
       includePrerelease: false
     displayName : "Configurando gitversion"
 
@@ -26,20 +26,7 @@ steps:
       configFilePath: "deploy/gitConfig.yml" 
     displayName: "generando version actual"
 
-  - script : |
-      git config user.email "alejandro.iglesias@trifenix.io"
-      git config user.name "alejandro.iglesias"
-      git tag -a $(SemVer) -m "update version $(SemVer)"
-      git push origin --tag
-    displayName : "actualización de versión manual"
   
-  - task: gitversion/execute@0
-    inputs:
-      useConfigFile: true
-      configFilePath: "deploy/gitConfig.yml" 
-    displayName: "generando la nueva versión"
-  
-
   - task: NodeTool@0
     inputs:
       versionSpec: "12.x"
