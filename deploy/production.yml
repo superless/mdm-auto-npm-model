@@ -48,10 +48,7 @@ steps:
       contents: "**"
       targetFolder: $(Build.ArtifactStagingDirectory)/npm
     displayName: "Copy Build"
-  - task: SonarQubeAnalyze@4
-  - task: SonarQubePublish@4
-    inputs:
-      pollingTimeoutSec: '300'
+  
   - task: PublishBuildArtifacts@1
     inputs:
       pathtoPublish: "$(Build.ArtifactStagingDirectory)/npm"
