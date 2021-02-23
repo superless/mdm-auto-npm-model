@@ -14,12 +14,7 @@ pr: none
 
 
 steps:
-  - task: SonarQubePrepare@4
-    inputs:
-      SonarQube: 'AGROFENIX-npm-mdm-automodel-prod'
-      scannerMode: 'MSBuild'
-      projectKey: 'AGROFENIX-npm-mdm-automodel-prod'
-      projectName: 'AGROFENIX-npm-mdm-automodel-prod'
+  
   - task: gitversion/setup@0
     inputs:
       versionSpec: '5.x'
