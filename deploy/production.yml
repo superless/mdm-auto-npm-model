@@ -8,7 +8,7 @@ pool:
 
 variables: 
   # nombre del archivo csproj
-  name-project: "@trifenix/mdm"
+  name-project: "trifenix_mdm"
   branch: "master"
   user: trifenix
   email: devops@trifenix.io
